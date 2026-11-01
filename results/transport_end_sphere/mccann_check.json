@@ -1,0 +1,11 @@
+{
+  "amp": 0.08,
+  "nfine_points": 320000,
+  "nsample": 4000,
+  "local_min_eig": 0.5700447555094613,
+  "min_jacobian": 0.48111027242956383,
+  "max_ad_vs_jacobi_field": 3.774758283725532e-15,
+  "max_displacement": 0.17413331331858042,
+  "global_min_gap": 2.5870252294557528e-09,
+  "note": "Finite-set minimum cost gap for the manufactured map. A positive sampled gap does not establish global optimality."
+}

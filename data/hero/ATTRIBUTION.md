@@ -1,0 +1,7 @@
+# World-population data attribution
+
+Population: Schiavina, M., Freire, S. and MacManus, K. (2023), *GHS-POP R2023A: GHS population grid multitemporal (1975-2030)*. European Commission, Joint Research Centre. [Dataset DOI](https://doi.org/10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE). This distribution uses epoch 2020, WGS84, 30 arcseconds, V1.0. The JRC notice identifies European Union copyright, 1995-2026, and [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); retain credit, the licence link and this indication of changes. [Full licence](https://creativecommons.org/licenses/by/4.0/legalcode).
+
+Changes: the source raster was aligned and summed to 0.1-degree cells, treating missing population values as zero, then summed to one-degree cells. Map masses add mean-land-density ocean fill and a 1% land floor before normalisation and geometric mapping. Raw population remains separate from this artificial fill. The compact display pack deduplicates invariant inputs and rounds mapped coordinates to float32; its manifest records source hashes and rounding errors. Rendered outputs apply the colour scale and display interpolation recorded in their manifest.
+
+Land fractions and coastlines come from [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/), whose raster and vector data are public domain. The 10m land polygons were rasterised and aggregated; the 50m coastlines were mapped alongside the population centres. No endorsement by either data provider is implied. Population-derived map arrays, posters and movies retain CC BY 4.0.

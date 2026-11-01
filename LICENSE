@@ -1,0 +1,14 @@
+CC0 1.0 Universal
+
+To the extent possible under law, Philipp Bogdan has waived all copyright and
+related or neighbouring rights in the original code, text, synthetic numerical
+results and non-population figures in this repository under CC0 1.0 Universal.
+
+The CC0 dedication, including its fallback licence and limitations, is at:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+This dedication does not apply to third-party data or to rights held by others.
+Population data and population-derived maps and figures retain CC BY 4.0 with
+the attribution and change notices in LICENSES/CC-BY-4.0.md and data/README.md.
+Natural Earth data are public domain. Dependency software retains its own terms.
+See THIRD_PARTY.md for the scope of these exceptions.

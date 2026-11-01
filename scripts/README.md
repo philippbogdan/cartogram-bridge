@@ -1,0 +1,5 @@
+# Recalculate or recompute
+
+Check the result without solving another bridge, or recompute it from the analytic test densities. `reproduce.py` checks included arrays and calculates the reported numbers. `rerun.py` lists or runs the full experiments serially. The `transport_end_*` and `diffusion_end_*` drivers implement those experiments; `check_mccann_sphere.py` checks the spherical transport reference on sampled points. `smoke.py` exercises both planar solvers, density preservation and both clocks on small inputs.
+
+`world_family.py` computes the separate flat-map illustration; `world_hero.py` packs its maps with shared inputs and float32 display coordinates, and renders a nearest-centre population colour field. `fetch_inputs.py`, `prepare_population.py` and `prepare_landfrac.py` rebuild its inputs from public sources. `figure_data.py` extracts the supporting figure data from the same stored evidence; `render_figures.py` draws the supporting PNG/SVG figures and the world MP4/poster with a hash manifest. Commands, dependencies, completed execution checks, output locations and the MP4-to-GIF transcode are in [REPRODUCE.md](../REPRODUCE.md).
