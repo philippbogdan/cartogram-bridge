@@ -1,6 +1,6 @@
 # The coarse world-map illustration
 
-The included [map pack](../data/hero/README.md) contains 40 bridge maps at noise 0.002 to 30 and a separate diffusion map on a one-degree flat grid. The [movie](../figures/world-bridge.mp4), [inline GIF](../figures/world-bridge.gif) and [poster](../figures/world-bridge-poster.png) show a nearest-centre population colour field with mapped coastlines and graticule. The smooth test problems in [results/](../results/README.md) supply the measured endpoint rates.
+The included [map pack](../data/hero/README.md) contains 40 bridge maps at noise 0.002 to 30 and a separate diffusion map on a one-degree flat grid. The [movie](../figures/world-bridge.mp4), [inline GIF](../figures/world-bridge.gif) and [poster](../figures/world-bridge-poster.png) show a nearest-centre population colour field with mapped coastlines and graticule. The smooth test problems in [results/](../results/README.md) supply the measured endpoint rates. The illustration provides no speed comparison.
 
 ## Calculation and output
 

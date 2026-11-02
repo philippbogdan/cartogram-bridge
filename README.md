@@ -20,11 +20,12 @@ At large noise, a clock set by the slowest heat-decay rate matches the bridge ve
 
 The natural clock leaves an endpoint error near one; the eigenvalue clock removes it. Downward triangles mark samples below the $`2\times10^{-15}`$ display floor, including stored zeros.
 
-## What this does not show
+## Assumptions made
 
-- A general transport theorem: the quadratic rate is derived under hypothesis (H) and confirmed numerically on smooth examples; the sphere fit spans only 0.6 decades. [Assumptions](docs/limits.md#transport-end-a-conditional-quadratic-rate).
-- A refereed clock result or an established fastest clock: convergence is derived, the no-faster-rate argument is formal, and plotted times are samples. [Scope](docs/limits.md#the-eigenvalue-clock).
-- A world-population rate, spherical world map, distortion ranking or speed comparison: the one-degree flat-map illustration is separate from these measurements. [World map](docs/world-map.md).
+- The quadratic transport derivation assumes uniformly smooth bridge densities and potentials, densities bounded away from zero, and a stable linearised transport system. [Hypothesis (H) and stability argument](docs/limits.md#transport-end-a-conditional-quadratic-rate).
+- The diffusion clock assumes smooth positive data bounded below and a nonzero component in the slowest-decaying modes; the symmetric example uses the lowest active eigenvalue. [Clock assumptions](docs/limits.md#the-eigenvalue-clock).
+- Fitted exponents and their standard errors depend on the chosen fit models, ranges and evaluation points. [Measurement definitions and limits](docs/measurements.md).
+- The world illustration uses a flat reflecting rectangle, with mean land density added over ocean and a density floor over all land. [Data treatment and scope](docs/world-map.md).
 
 ## How to use it
 
